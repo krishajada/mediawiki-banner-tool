@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Banner App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="banner" id="banner">
+    <h1 id="bannerText">I love exploring space! 🚀</h1>
+    <img id="bannerImage" src="https://www.nasa.gov/sites/default/files/thumbnails/image/stsci-h-p2001a-f-1920x1080.png" alt="space" />
+  </header>
+
+  <form id="controlForm">
+    <label for="bgColor">Background Color:</label>
+    <input type="color" id="bgColor" />
+    
+    <label for="newText">New Banner Text:</label>
+    <input type="text" id="newText" placeholder="Type something you enjoy..." />
+    
+    <label for="newImage">New Image URL:</label>
+    <input type="url" id="newImage" placeholder="Paste image URL" />
+    
+    <button type="submit">Update Banner</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>

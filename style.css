@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .banner {
+    width: 100%;
+    padding: 40px;
+    text-align: center;
+    background-color: #282c34;
+    color: white;
+  }
+  
+  .banner img {
+    width: 300px;
+    height: auto;
+    margin-top: 10px;
+  }
+  
+  form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+  }
+  
