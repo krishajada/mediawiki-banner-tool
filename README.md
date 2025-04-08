@@ -2,7 +2,7 @@
 
 # Banner Frontend Project
 
-This project is a simple web page showcasing something I enjoy—space exploration! 🚀
+This project is a simple web page showcasing something I enjoy—space exploration! 
 
 ## Features
 
@@ -22,8 +22,13 @@ Just open `index.html` in your browser.
 
 ## Unit Testing
 
-Testing support added using [Jest](https://jestjs.io/) — see `tests/` directory.
+This project includes unit testing using [Jest](https://jestjs.io/).
 
+To run tests:
+
+```bash
+npm install
+npm test
 
 ## Author
 Krisha Jada
